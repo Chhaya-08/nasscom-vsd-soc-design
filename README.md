@@ -41,19 +41,19 @@
 
 After synthesis, we get the synthesized netlist (`.v`) in our synthesis results folder, which was initially empty.
 
-![1](https://github.com/user-attachments/assets/26c329da-de10-43a7-a347-d065a7da28fc)
-![2](https://github.com/user-attachments/assets/6f3c31e0-4b42-4e5f-8f23-8cbf8dbfbf5e)
-![3](https://github.com/user-attachments/assets/99ba9075-41d2-4e9f-87a3-d4ee857e5911)
-![4](https://github.com/user-attachments/assets/45de6cd7-7e60-4ec2-bc5a-69d76819be3d)
-![5](https://github.com/user-attachments/assets/e68593f2-db1
-![6](https://github.com/user-attachments/assets/c418e416-9f0b-4d4b-be50-f6f567adc135)
 
-![7](https://github.com/user-attachments/assets/28d8d3cf-5850-487a-9381-c2c2f7287c7e)
-![8](https://github.com/user-attachments/assets/dab3d511-0c9a-49a3-8360-be138a301250)
-![9](https://github.com/user-attachments/assets/9941352b-414c-4d3f-b9b6-2b331ddbcd0a)
+![1](https://github.com/user-attachments/assets/873b3a55-166b-463e-aa15-1b2cdaae3e8e)
+![2](https://github.com/user-attachments/assets/a50310c2-14e6-470b-98d4-8d6d386f6b0d)
+![3](https://github.com/user-attachments/assets/27181437-8189-46f7-be20-d76499e209e9)
+![4](https://github.com/user-attachments/assets/e1077b09-9368-4ccb-a232-95c5e7571985)
+![5](https://github.com/user-attachments/assets/a57decff-0bf1-4153-b385-823e0d7eae76)
+![6](https://github.com/user-attachments/assets/02d9784d-85ff-44b1-8652-2c2bc1cc2393)
+![7](https://github.com/user-attachments/assets/6af22648-5537-46d6-aae0-6bf1f711809c)
+![8](https://github.com/user-attachments/assets/1a517480-d29a-4207-b3a5-5c084a2d6925)
+![9](https://github.com/user-attachments/assets/5a62c6f2-ecf1-4812-8e36-77944cc7cf8b)
+![10](https://github.com/user-attachments/assets/ea7836ce-33f0-4825-9d2b-3b6910eeb1f2)
+![11](https://github.com/user-attachments/assets/292fef12-0533-4724-9fda-4952ffdbb280)
 
-![10](https://github.com/user-attachments/assets/4e559346-5845-4460-954a-34e8bde69589)
-![11](https://github.com/user-attachments/assets/14880d93-447e-4c48-b21a-7ba498fa0557)
 
 
 
