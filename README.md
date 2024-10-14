@@ -52,8 +52,8 @@ After synthesis, we get the synthesized netlist (`.v`) in our synthesis results 
 ![8](https://github.com/user-attachments/assets/dab3d511-0c9a-49a3-8360-be138a301250)
 ![9](https://github.com/user-attachments/assets/9941352b-414c-4d3f-b9b6-2b331ddbcd0a)
 
-![10](https://github.com/user-attachments/assets/4e559346-5845-4460-954a-34e8
+![10](https://github.com/user-attachments/assets/4e559346-5845-4460-954a-34e8bde69589)
 ![11](https://github.com/user-attachments/assets/14880d93-447e-4c48-b21a-7ba498fa0557)
-bde69589)
+
 
 
