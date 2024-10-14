@@ -326,20 +326,28 @@ By following these steps, you can create and analyze the power distribution netw
 
 # Final Step: Routing in RTL to GDS Flow
 **1. Initiate Routing:**
+
  - The final step in the RTL to GDS flow is to perform routing.
-  - Execute the routing command in the Openlane tool:
+  - Execute the routing command in the Openlane tool: run_routing
+    
 **2. Analyze Routing Reports:**
+
 - After running the routing command, Openlane generates several reports that provide detailed information about the routing process.
 - These reports include metrics and statistics on the routing quality, such as wirelength, via count, and congestion.
+  
 **3. Review the DEF File:**
+
   - The DEF (Design Exchange Format) file is updated after routing.
  - Open and review the DEF file to see the coordinates and orientation of the routing layers.
  - The DEF file contains:
    i) Routing Coordinates: The specific X and Y coordinates for each routing segment.
    ii) Layer Orientation: The orientation and metal layers used for routing.
+   
 **4. Steps to View and Verify Routing:**
+
    - Use a layout visualization tool (like Magic) to inspect the routing visually:
    - Check for proper routing connections, ensure there are no DRC (Design Rule Check) violations, and verify that all signals are properly routed.
+   - 
 By following these steps, you can complete the routing stage in the RTL to GDS flow, ensuring that your design is correctly and efficiently routed, with all connections meeting the necessary design rules and specifications.
 
 ![1](https://github.com/user-attachments/assets/3861da28-5991-4305-a2b1-beb8d251c5a7)
