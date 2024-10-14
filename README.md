@@ -26,15 +26,15 @@
 
    - Once the preparation is complete, a `runs` directory is created within the `picorv32a` design directory. This directory is named with the current date to reflect when the LEF files were merged.
 
-# Running Synthesis in Openlane
+**Running Synthesis in Openlane**
 
  **Run Synthesis**
   - Execute the `run_synthesis` command in Openlane.
   - After completing the synthesis, Openlane provides detailed information about the cells and the number of each cell type used, including the results of the ABC run.
 
   **Synthesis Results**
-- The total number of cells in the design = 147712.918400
-- The flop ratio = (number of DFF) / (total number of cells)
+- The total chip area for the module = 147712.918400
+- The flop ratio = (Number of DFF) / (Total number of cells)
     = 1613 / 14876
     = 0.1084296854
     = 10.84296854%
