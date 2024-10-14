@@ -36,8 +36,8 @@
 ## Synthesis Results
 - The total number of cells in the design = 147712.918400
 - The flop ratio = (number of DFF) / (total number of cells)
-  - = 1613 / 14876
-  - = 0.1084296854
-  - = 10.84296854%
+    = 1613 / 14876
+    = 0.1084296854
+    = 10.84296854%
 
 After synthesis, we get the synthesized netlist (`.v`) in our synthesis results folder, which was initially empty.
