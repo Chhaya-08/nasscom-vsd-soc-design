@@ -250,6 +250,26 @@ By following these steps, you can integrate standard cells, optimize timing para
 
 
 
+![1](https://github.com/user-attachments/assets/5d2e0062-de71-429e-a8c3-917edf1bb68f)
+![2](https://github.com/user-attachments/assets/213c67df-2dad-4967-8fed-d0157e2617ff)
+![3](https://github.com/user-attachments/assets/f18b969a-16e0-4c87-b12f-d050f61dfeee)
+![4](https://github.com/user-attachments/assets/be7789f4-ad2b-4136-93d9-c6356c3624ad)
+![5](https://github.com/user-attachments/assets/b6d979c5-86d8-4f58-a985-7936dcb898eb)
+![6](https://github.com/user-attachments/assets/914b4105-ea2e-47c3-896c-c0a34f6a5de1)
+![7](https://github.com/user-attachments/assets/74335c10-cff9-43bf-82e1-115b9882c31b)
+
+![8](https://github.com/user-attachments/assets/88bc5016-6037-4f0d-b9e0-6e868fe8f5a7)
+![9](https://github.com/user-attachments/assets/edb9cee0-9d50-4704-b480-0b85677059ff)
+![10](https://github.com/user-attachments/assets/4f77b52a-92df-41c6-b8d8-857695d479d9)
+![11](https://github.com/user-attachments/assets/583de535-0d4d-4411-84ec-3aa363fe4791)
+![12](https://github.com/user-attachments/assets/c2d98b70-dad2-4a78-adb4-ce7310509f0e)
+![13](https://github.com/user-attachments/assets/07cc3b74-754d-447c-9b55-56ea1cda623b)
+![14](https://github.com/user-attachments/assets/6a76d942-4693-411a-9347-2a134498a482)
+
+
+
+
+
 
 
 
