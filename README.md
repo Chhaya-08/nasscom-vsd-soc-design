@@ -67,19 +67,19 @@ Open the README.md file to find detailed information, terminologies, and variabl
 - This generates a DEF (Design Exchange Format) file containing details about the rows, their coordinates, orientation, and location.
 - The file starts with the die area, showing the die coordinates.
 -	Units for measurements and coordinates are specified (e.g., 1 micron = 1000 database units).
--	
+  
 **2.	Viewing the Layout:**
  	
 -	To view the layout after floorplanning, use the magic -T command in the terminal.
 -	Provide the paths to the technology file, PDKs, technology LEF, and DEF files.
--	
+  
 **3.	Opening the Design in Magic:**
  	
 -	Upon opening the design in Magic, you'll see a box shape corresponding to the defined aspect ratio (1:1 aspect ratio results in a square shape).
 -	Pins are placed equidistantly across the entire die area.
 -	Macros or IPs (intellectual properties) are visible at this stage, but standard cells within the die are not visible yet. They will become visible after completing the placement stage.
 -	Note: Standard cells might appear in the bottom left corner of the Magic window, outside the cell area.
--	
+  
 **4.	Inspecting Macros:**
  	
 -	You can inspect the different macro cells placed at this stage by zooming in on the design.
