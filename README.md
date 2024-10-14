@@ -113,7 +113,7 @@ Open the README.md file to find detailed information, terminologies, and variabl
 **3.	Viewing the Design after Placement:**
    
 -	Use the same magic -T command as before, but now point to the placement DEF file.
-magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_file>
+         magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_file>
 -	The design will now show standard cells placed inside the core area along with the macros.
   
 **4.	Handling Overlaps and Legalization:**
@@ -196,7 +196,7 @@ magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_fil
 **7.	Running Simulation with Ngspice:**
 
 -	Run Ngspice to simulate the inverter:
-ngspice <path_to_inverter.spice>
+         ngspice <path_to_inverter.spice>
 -	Plot the output vs. input with respect to time to observe the transient waveforms.
   
 **8.	Improving Simulation Results:**
