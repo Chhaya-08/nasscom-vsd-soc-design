@@ -28,11 +28,11 @@
 
 # Running Synthesis in Openlane
 
-** Run Synthesis **
+- ** Run Synthesis **
   - Execute the `run_synthesis` command in Openlane.
   - After completing the synthesis, Openlane provides detailed information about the cells and the number of each cell type used, including the results of the ABC run.
 
-** Synthesis Results **
+- ** Synthesis Results **
 - The total number of cells in the design = 147712.918400
 - The flop ratio = (number of DFF) / (total number of cells)
     = 1613 / 14876
