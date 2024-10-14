@@ -149,6 +149,49 @@ magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_fil
 **4.	Steps to Apply Changes:**
 -	Update the FP_IO_MODE setting in the appropriate configuration file or directly in the Openlane environment.
 
+![1](https://github.com/user-attachments/assets/a20de4b1-cc0d-4a85-a4fc-2db386dd0350)
+![2](https://github.com/user-attachments/assets/3a542192-7a62-4b7d-8f1a-8c90ccb76adb)
+
+# Cloning and Setting Up the Inverter Design in Openlane
+**1.	Clone the Repository:**
+-	Clone the repository containing the MAG files for the inverter and NMOS/PMOS for Sky130: git clone <repository_url>
+-	This will add a new directory named vsdstdcelldesign to your Openlane directory.
+**2.	Open the Inverter Design in Magic:**
+-	Open the Magic tool with the cloned inverter MAG file:
+magic -T <tech_file> <path_to_inverter.mag>
+-	This will display the layout of the inverter.
+**3.	Viewing the Layout:**
+-	Different layers are shown with different colors:
+	Metals are defined with blue.
+	Polysilicon is shown in red.
+	The right side displays a palette showing each layer:
+	Metal 1: Purple
+	Metal 2: Pink cross
+**4.	Labelling Layers for Clarity:**
+-	Define text labels for each layer to better understand the functionality of the circuit:
+ 	Go to the cell, select the text option, and define the text label.
+-	Define each port (input, output, or inout) to specify their functionality:
+-	Use the tkcon window to write commands to define them as signals and ports.
+**5.	Extracting the Design:**
+-	Extract the file in the vsdstdcelldesign directory as a .ext file:
+-	Generate the .spice file: ext2spice
+**6.	Modifying the Spice File:**
+-	Open the generated .spice file.
+-	Modify the file to match the Sky130 definitions for NMOS and PMOS as per the cloned pshort and nshort libraries.
+-	Save the modified .spice file.
+**7.	Running Simulation with Ngspice:**
+-	Run Ngspice to simulate the inverter:
+ngspice <path_to_inverter.spice>
+-	Plot the output vs. input with respect to time to observe the transient waveforms.
+**8.	Improving Simulation Results:**
+-	If there are spikes in the output, increase the load capacitor value to reduce the spikes.
+-	Re-run the simulation to check the effects of the load capacitor.
+**9.	Calculating Performance Metrics:**
+-	Calculate the rise and fall transition times.
+-	Determine the cell delays.
+By following these steps, we can clone, set up, simulate, and analyze the inverter design in the Openlane environment using the Magic and Ngspice tools. This process helps in understanding the layout, functionality, and performance of the circuit.
+
+
 
 
 
