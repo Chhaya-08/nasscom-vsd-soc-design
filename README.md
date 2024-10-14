@@ -342,11 +342,8 @@ By following these steps, you can create and analyze the power distribution netw
    - Check for proper routing connections, ensure there are no DRC (Design Rule Check) violations, and verify that all signals are properly routed.
 By following these steps, you can complete the routing stage in the RTL to GDS flow, ensuring that your design is correctly and efficiently routed, with all connections meeting the necessary design rules and specifications.
 
-![1](https://github.com/user-attachments/assets/2624ba6d-d1d2-4f86-ae9c-fe0c9a11a9e5)
-![2](https://github.com/user-attachments/assets/f1ad6de0-1f03-4752-844d-9719df3e66f2)
-
-
-
+![1](https://github.com/user-attachments/assets/3861da28-5991-4305-a2b1-beb8d251c5a7)
+![3](https://github.com/user-attachments/assets/5a1efe1f-e468-4772-ae17-a2cf4f8cfa82)
 
 
 
