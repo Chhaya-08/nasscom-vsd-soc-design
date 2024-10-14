@@ -42,4 +42,18 @@
 After synthesis, we get the synthesized netlist (`.v`) in our synthesis results folder, which was initially empty.
 
 ![1](https://github.com/user-attachments/assets/26c329da-de10-43a7-a347-d065a7da28fc)
+![2](https://github.com/user-attachments/assets/6f3c31e0-4b42-4e5f-8f23-8cbf8dbfbf5e)
+![3](https://github.com/user-attachments/assets/99ba9075-41d2-4e9f-87a3-d4ee857e5911)
+![4](https://github.com/user-attachments/assets/45de6cd7-7e60-4ec2-bc5a-69d76819be3d)
+![5](https://github.com/user-attachments/assets/e68593f2-db1
+![6](https://github.com/user-attachments/assets/c418e416-9f0b-4d4b-be50-f6f567adc135)
+
+![7](https://github.com/user-attachments/assets/28d8d3cf-5850-487a-9381-c2c2f7287c7e)
+![8](https://github.com/user-attachments/assets/dab3d511-0c9a-49a3-8360-be138a301250)
+![9](https://github.com/user-attachments/assets/9941352b-414c-4d3f-b9b6-2b331ddbcd0a)
+
+![10](https://github.com/user-attachments/assets/4e559346-5845-4460-954a-34e8
+![11](https://github.com/user-attachments/assets/14880d93-447e-4c48-b21a-7ba498fa0557)
+bde69589)
+
 
