@@ -231,7 +231,6 @@ Calculating the values by seeing the curve and values published at the terminal:
    -Each library file defines the temperature conditions and multiple parameters for the cell under different conditions.
 
 **3. Connecting Standard Cells to Openlane:**
-
      -Integrate the standard cell libraries with Openlane.
      - Invoke Openlane and rerun the synthesis stage to include the standard cells.
      
