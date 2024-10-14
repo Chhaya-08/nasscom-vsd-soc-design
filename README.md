@@ -55,5 +55,28 @@ After synthesis, we get the synthesized netlist (`.v`) in our synthesis results 
 ![11](https://github.com/user-attachments/assets/292fef12-0533-4724-9fda-4952ffdbb280)
 
 
+Open the README.md file to find detailed information, terminologies, and variables related to the floorplan, synthesis, and other stages. This file outlines the parameters and their default values, which can be adjusted later to meet specific design requirements. For instance, the floorplan stage includes parameters such as core utilization, aspect ratio, core margin, and input/output horizontal and vertical metal layers. Default values for these parameters can be found in the corresponding TCL file, such as floorplan.tcl for the floorplan stage.
+
+
+
+
+**Running the run_floorplan Command**
+**1.	Generate DEF File:**
+-	Execute the run_floorplan command.
+- This generates a DEF (Design Exchange Format) file containing details about the rows, their coordinates, orientation, and location.
+- The file starts with the die area, showing the die coordinates.
+o	Units for measurements and coordinates are specified (e.g., 1 micron = 1000 database units).
+**2.	Viewing the Layout:**
+-	To view the layout after floorplanning, use the magic -T command in the terminal.
+-	Provide the paths to the technology file, PDKs, technology LEF, and DEF files.
+**3.	Opening the Design in Magic:**
+-	Upon opening the design in Magic, you'll see a box shape corresponding to the defined aspect ratio (1:1 aspect ratio results in a square shape).
+-	Pins are placed equidistantly across the entire die area.
+-	Macros or IPs (intellectual properties) are visible at this stage, but standard cells within the die are not visible yet. They will become visible after completing the placement stage.
+-	Note: Standard cells might appear in the bottom left corner of the Magic window, outside the cell area.
+**4.	Inspecting Macros:**
+-	You can inspect the different macro cells placed at this stage by zooming in on the design.
+-	Select a cell in the design and type what in the tkcon (Tcl console) window to get information about the selected cell.
+
 
 
