@@ -162,11 +162,11 @@ magic -T <tech_file> <path_to_inverter.mag>
 -	This will display the layout of the inverter.
 **3.	Viewing the Layout:**
 -	Different layers are shown with different colors:
-	Metals are defined with blue.
-	Polysilicon is shown in red.
-	The right side displays a palette showing each layer:
-	Metal 1: Purple
-	Metal 2: Pink cross
+	Metals are defined with blue.
+	Polysilicon is shown in red.
+	The right side displays a palette showing each layer:
+	Metal 1: Purple
+	Metal 2: Pink cross
 **4.	Labelling Layers for Clarity:**
 -	Define text labels for each layer to better understand the functionality of the circuit:
  	Go to the cell, select the text option, and define the text label.
@@ -192,6 +192,28 @@ ngspice <path_to_inverter.spice>
 By following these steps, we can clone, set up, simulate, and analyze the inverter design in the Openlane environment using the Magic and Ngspice tools. This process helps in understanding the layout, functionality, and performance of the circuit.
 
 
+
+![1](https://github.com/user-attachments/assets/6be9f1c2-d3d3-4795-87a9-07d234900217)
+![2](https://github.com/user-attachments/assets/8af95e8c-b22c-4fa2-937c-34f7cabbc622)
+![3](https://github.com/user-attachments/assets/edea956a-7b91-4585-8b04-0282e159e3a8)
+![4](https://github.com/user-attachments/assets/ed55b147-060b-48e5-8f6e-ac7c4967a745)
+![5](https://github.com/user-attachments/assets/717cafb7-ba19-4a37-8e39-5ecacb950e17)
+![6](https://github.com/user-attachments/assets/2d68c600-ba7b-4947-8c9d-8c843a47a441)
+![7](https://github.com/user-attachments/assets/0846481b-acc7-4852-a1b8-ca9b95957d33)
+![8](https://github.com/user-attachments/assets/e6015761-efda-4017-998f-a18ab61e4789)
+![9](https://github.com/user-attachments/assets/cd760662-fcc6-46ff-ad85-03d42ea502d7)
+![10](https://github.com/user-attachments/assets/639dbb02-fb16-4b3c-aa2e-d1c553201f46)
+
+
+![11](https://github.com/user-attachments/assets/3fef6ea5-98a1-4f27-9b64-4ce541b9bc38)
+![12](https://github.com/user-attachments/assets/0a7c7593-8a65-44d6-992b-8be79d3fdf43)
+![13](https://github.com/user-attachments/assets/83d468b4-1feb-497b-a533-615f5d5e79b3)
+![14](https://github.com/user-attachments/assets/611de6d8-fb69-47e8-9324-2fb7107a4b1d)
+![15](https://github.com/user-attachments/assets/6e46abbb-1881-41ec-861b-2cf27763ee3e)
+![16](https://github.com/user-attachments/assets/589779a9-e81f-43a8-86de-b1c15b685518)
+![17](https://github.com/user-attachments/assets/a222fa39-3a14-4f29-8177-c5433dc7555e)
+![18](https://github.com/user-attachments/assets/8b914cbd-8afa-43e1-ae80-b43002954ae3)
+![19](https://github.com/user-attachments/assets/7c2d62c5-8819-4615-aff2-c0ff5f9b2a32)
 
 
 
