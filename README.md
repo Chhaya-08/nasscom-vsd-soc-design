@@ -215,6 +215,41 @@ By following these steps, we can clone, set up, simulate, and analyze the invert
 ![18](https://github.com/user-attachments/assets/8b914cbd-8afa-43e1-ae80-b43002954ae3)
 ![19](https://github.com/user-attachments/assets/7c2d62c5-8819-4615-aff2-c0ff5f9b2a32)
 
+Calculating the values by seeing the curve and values published at the terminal:
+
+1)	**Rise transition delay:** 2.14022 – 2.24471 = -0.10383 ns
+2)	**Fall transition delay :** 4.06621-4.10959 = -0.04338ns
+3)	**Cell rise delay :** 2.17941 – 2.10529 = 0.07412 ns
+4)	**Cell fall delay :**  4.08753 – 4.05011 = 0.03742 ns
+
+# Standard Cell Integration and Optimization in Openlane
+**1.	Understanding Design Rules:**
+  -Ensure the width of cells is an odd multiple of the grid boxes.
+**2. Standard Cell Characterization:**
+   -Standard cell descriptions are located in library files at the extreme corners (slow, fast, typical).
+-Each library file defines the temperature conditions and multiple parameters for the cell under different conditions.
+
+**3. Connecting Standard Cells to Openlane:**
+     -Integrate the standard cell libraries with Openlane.
+     - Invoke Openlane and rerun the synthesis stage to include the standard cells:
+**4. Optimizing Timing:**
+  -To correct TNS (Total Negative Slack), WNS (Worst Negative Slack), and slack:
+i)	Adjust synthesis strategies.
+ii)	Apply buffering.
+iii)	Perform cell sizing.
+iv)	Optimize driving cells.
+v)	Rerun the synthesis stage after making these adjustments to observe the updated results.
+
+**5. Proceeding with the Design Flow:**
+    - After synthesis, proceed with the floorplan stage:
+    - Continue with clock tree synthesis (CTS):
+    - Check the process definitions and ensure all parameters are correctly set.
+By following these steps, you can integrate standard cells, optimize timing parameters, and proceed through the design stages in Openlane, ensuring your design meets the required specifications.
+
+
+
+
+
 
 
 
