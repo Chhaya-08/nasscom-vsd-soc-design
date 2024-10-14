@@ -40,3 +40,6 @@
     = 10.84296854%
 
 After synthesis, we get the synthesized netlist (`.v`) in our synthesis results folder, which was initially empty.
+
+![1](https://github.com/user-attachments/assets/26c329da-de10-43a7-a347-d065a7da28fc)
+
