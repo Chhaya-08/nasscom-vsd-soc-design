@@ -1,5 +1,5 @@
 # nasscom-vsd-soc-design
-Familiarity with Different Directories and Tools
+Familiarity with Different Directories and Tools \newline
 •	Directory Exploration:
 o	Familiarize with various directories and their contents. Explore each folder to understand the information they contain.
 Openlane: Automating RTL to GDS Flow
