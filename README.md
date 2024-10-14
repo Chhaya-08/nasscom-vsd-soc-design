@@ -85,5 +85,16 @@ Open the README.md file to find detailed information, terminologies, and variabl
 -	You can inspect the different macro cells placed at this stage by zooming in on the design.
 -	Select a cell in the design and type what in the tkcon (Tcl console) window to get information about the selected cell.
 
+![1](https://github.com/user-attachments/assets/a07557fe-befb-479f-bbc1-b57926f5ebd6)
+![2](https://github.com/user-attachments/assets/765f022a-d352-4368-adcf-b51cd9a80f92)
+![3](https://github.com/user-attachments/assets/91272df5-6d39-40d8-bd5b-248dcec0d455)
+![4](https://github.com/user-attachments/assets/e6d7106a-2153-4c3a-b797-8120e371e04b)
+![5](https://github.com/user-attachments/assets/7105d0e0-ea15-468f-b3f1-bc3f02e12e10)
+![6](https://github.com/user-attachments/assets/9c5ee259-f4dc-4998-923b-273b40a472ed)
+![7](https://github.com/user-attachments/assets/2ee10941-cd28-4651-9da2-53a1e17ea342)
+![8](https://github.com/user-attachments/assets/436c7609-fa58-4dde-9f04-e6d554c87de5)
+![9](https://github.com/user-attachments/assets/ae678862-7855-46f2-95da-cd709f0a369d)
+![10](https://github.com/user-attachments/assets/0b65949f-b7aa-4cd6-ae7d-fa4867d31bca)
+![11](https://github.com/user-attachments/assets/0021d9db-3016-4d36-b04e-6601c057ab25)
 
 
