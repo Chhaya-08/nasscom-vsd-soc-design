@@ -61,6 +61,7 @@ Open the README.md file to find detailed information, terminologies, and variabl
 
 
 **Running the run_floorplan Command**
+
 **1.	Generate DEF File:**
 
 -	Execute the run_floorplan command.
@@ -96,5 +97,35 @@ Open the README.md file to find detailed information, terminologies, and variabl
 ![9](https://github.com/user-attachments/assets/ae678862-7855-46f2-95da-cd709f0a369d)
 ![10](https://github.com/user-attachments/assets/0b65949f-b7aa-4cd6-ae7d-fa4867d31bca)
 ![11](https://github.com/user-attachments/assets/0021d9db-3016-4d36-b04e-6601c057ab25)
+
+
+Proceeding to the Placement Stage
+1.	Run Placement Command:
+   
+-	After completing the floorplan stage, proceed to the placement stage where standard cells are placed.
+-	Execute the run_placement command in the Openlane terminal.
+
+2.	Generate Placement DEF File:
+   
+- This command generates a placement DEF file located under the results directory.
+-	To visualize the changes in the floorplan design after placement, use the Magic tool again with the updated DEF file.
+  
+3.	Viewing the Design after Placement:
+   
+-	Use the same magic -T command as before, but now point to the placement DEF file.
+magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_file>
+-	The design will now show standard cells placed inside the core area along with the macros.
+  
+4.	Handling Overlaps and Legalization:
+   
+-	Initially, you may see standard cells and macros overlapping each other. This is resolved during the legalization step.
+-	Placement is done in three steps:
+-	Global Placement: Provides an initial placement of cells.
+-	Detailed Placement: Refines the placement to reduce overlap and improve the design's quality.
+- Legalization: Ensures that all cells are placed without overlaps and meet design rules.
+   
+5.	Components Placed:
+-	At this stage, tap cells, decap cells, macros, and standard cells are all placed within the design.
+
 
 
