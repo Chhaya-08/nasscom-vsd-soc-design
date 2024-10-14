@@ -271,8 +271,32 @@ By following these steps, you can integrate standard cells, optimize timing para
 ![19](https://github.com/user-attachments/assets/48e5fd35-c12e-478f-a187-3c4dd3000afc)
 
 
-
-
+Creating the Power Distribution Network in Openlane
+**1. Power Distribution Network (PDN) Setup:**
+  -	Use Openlane to create the power distribution network (PDN).
+  -	The PDN provides details about the metals used, their pitch, and the width of the metal layers.
+    
+**2. Power Straps and Rails:**
+  -	The PDN includes power straps and rails which are essential for distributing power across the chip.
+  -	The orientation and placement of these power components are critical for ensuring a reliable power supply to all parts of the design.
+    
+**3. Extracting PDN Information:**
+   - 	The PDN tool in Openlane generates detailed information about the power network, including:
+   - Metals Used: The types of metal layers used in the power distribution.
+   - Pitch: The spacing between the metal layers.
+   - Width: The width of each metal layer.
+   - Power Straps and Rails: Detailed information about the power straps and rails, including their orientation.
+     
+**4. Running PDN Generation in Openlane:**
+   - Execute the command to generate the power distribution network
+   - Review the generated reports to understand the distribution of power across your design.
+     
+**5. Analyzing PDN Details:**
+- Check the PDN report files for:
+- The specific metals used for power and ground.
+- The pitch and width of the metal layers used for power distribution.
+- Details on the power straps and rails, including their placement and orientation within the design.
+By following these steps, you can create and analyze the power distribution network in your design using Openlane, ensuring that all components receive adequate power and maintaining the integrity of the power supply.
 
 
 
