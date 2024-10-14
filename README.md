@@ -168,10 +168,10 @@ Open the README.md file to find detailed information, terminologies, and variabl
   
 **3.	Viewing the Layout:**
 
-      -	Different layers are shown with different colors:
-      - Metals are defined with blue.
-	- Polysilicon is shown in red.
-	- The right side displays a palette showing each layer:
+- Different layers are shown with different colors:
+- Metals are defined with blue.
+- Polysilicon is shown in red.
+- The right side displays a palette showing each layer:
 	i) Metal 1: Purple
 	ii) Metal 2: Pink cross
 
@@ -291,7 +291,7 @@ By following these steps, you can integrate standard cells, optimize timing para
 ![19](https://github.com/user-attachments/assets/48e5fd35-c12e-478f-a187-3c4dd3000afc)
 
 
-Creating the Power Distribution Network in Openlane
+# Creating the Power Distribution Network in Openlane
 **1. Power Distribution Network (PDN) Setup:**
   -	Use Openlane to create the power distribution network (PDN).
   -	The PDN provides details about the metals used, their pitch, and the width of the metal layers.
