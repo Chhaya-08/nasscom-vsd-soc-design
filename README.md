@@ -60,7 +60,7 @@ Open the README.md file to find detailed information, terminologies, and variabl
 
 
 
-**Running the run_floorplan Command**
+# Running the run_floorplan Command
 
 **1.	Generate DEF File:**
 
@@ -99,24 +99,24 @@ Open the README.md file to find detailed information, terminologies, and variabl
 ![11](https://github.com/user-attachments/assets/0021d9db-3016-4d36-b04e-6601c057ab25)
 
 
-Proceeding to the Placement Stage
-1.	Run Placement Command:
+# Proceeding to the Placement Stage
+**1.	Run Placement Command:**
    
 -	After completing the floorplan stage, proceed to the placement stage where standard cells are placed.
 -	Execute the run_placement command in the Openlane terminal.
 
-2.	Generate Placement DEF File:
+**2.	Generate Placement DEF File:**
    
 - This command generates a placement DEF file located under the results directory.
 -	To visualize the changes in the floorplan design after placement, use the Magic tool again with the updated DEF file.
   
-3.	Viewing the Design after Placement:
+**3.	Viewing the Design after Placement:**
    
 -	Use the same magic -T command as before, but now point to the placement DEF file.
 magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_file>
 -	The design will now show standard cells placed inside the core area along with the macros.
   
-4.	Handling Overlaps and Legalization:
+**4.	Handling Overlaps and Legalization:**
    
 -	Initially, you may see standard cells and macros overlapping each other. This is resolved during the legalization step.
 -	Placement is done in three steps:
@@ -124,8 +124,33 @@ magic -T <tech_file> -pdk <pdk_path> -lef <lef_file> -def <new_floorplan_def_fil
 -	Detailed Placement: Refines the placement to reduce overlap and improve the design's quality.
 - Legalization: Ensures that all cells are placed without overlaps and meet design rules.
    
-5.	Components Placed:
+**5.	Components Placed:**
 -	At this stage, tap cells, decap cells, macros, and standard cells are all placed within the design.
+
+  ![1](https://github.com/user-attachments/assets/5adaf539-4feb-4dd8-a098-0d0bf3d0bede)
+![2](https://github.com/user-attachments/assets/d87463b7-b196-476b-aa12-8678a9433533)
+![3](https://github.com/user-attachments/assets/dbd19f15-df9e-4a41-a14a-9c960425f9e8)
+
+
+
+# Adjusting Pin Placement with FP_IO_MODE
+**1.	Understanding FP_IO_MODE:**
+-	The FP_IO_MODE parameter is used to define the placement of pins.
+-	Previously, setting this parameter placed the pins equidistant from each other around the design.
+  
+  **2.	Modifying Pin Placement:**
+-	To concentrate the pins in a specific portion of the design, set FP_IO_MODE to 2.
+-	This adjustment changes the pin distribution as shown in the image below.
+  
+**3.	Re-run the Floorplan:**
+-	After modifying FP_IO_MODE, re-run the floorplan stage to apply the changes.
+-	This involves executing the floorplan command again, which regenerates the DEF file with the new pin placements.
+  
+**4.	Steps to Apply Changes:**
+-	Update the FP_IO_MODE setting in the appropriate configuration file or directly in the Openlane environment.
+
+
+
 
 
 
